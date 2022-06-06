@@ -1,0 +1,75 @@
+.teamcard {
+      border: 1px solid #E4E7EC;
+      border-radius: 4px;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+}
+
+.header {
+      padding: 16px;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+}
+
+.image {
+      border-radius: 4px;
+}
+
+.info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+}
+
+.name {
+      color: #444444;
+      font-size: 16px;
+      line-height: 19px;
+}
+
+.createdAt {
+      color: #565656;
+      font-size: 13px;
+      line-height: 16px;
+      filter: opacity(0.5);
+}
+
+.star {
+      margin-left: auto;
+}
+
+.body {
+      padding: 5px 16px 16px;
+      color: #565656;
+      font-size: 14px;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      height: calc(3 * 1.124rem + 5px);
+      white-space: normal;
+}
+
+.footer {
+      border-top: 1px solid #E4E7EC;
+      padding: 26px 16px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: nowrap;
+      height: 60px;
+      margin-top: auto;
+}
+
+.countAndType {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      justify-content: flex-start;
+      font-size: 13px;
+      line-height: 16px;
+      color: black;
+      filter: opacity(0.45);
+}

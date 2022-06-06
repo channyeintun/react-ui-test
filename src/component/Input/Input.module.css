@@ -1,0 +1,36 @@
+.inputWrapper {
+      display: flex;
+      position: relative;
+      min-height: 40px;
+      min-width: 200px;
+      margin-bottom: 3px;
+}
+
+.input {
+      display: flex;
+      padding-left: 30px;
+      background-color: white;
+      width: 100%;
+      border: 0;
+      font-size: 16px;
+      line-height: 19px;
+      color: black;
+}
+
+input::placeholder {
+      font-size: 16px;
+      line-height: 19px;
+      color: #999999;
+}
+
+input:focus {
+      outline: 1px dashed #999999;
+      outline-offset: 2px;
+}
+
+.icon {
+      position: absolute;
+      top: 50%;
+      left: 5px;
+      transform: translateY(-50%);
+}

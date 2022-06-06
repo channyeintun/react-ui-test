@@ -1,0 +1,51 @@
+.container {
+      flex-grow: 100;
+      height: calc(100% - 80px);
+      display: flex;
+      flex-direction: column;
+}
+
+.header {
+      position: relative;
+      z-index: 4;
+      width: 100%;
+      height: 80px;
+      background-color: white;
+      padding: 0 40px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.title {
+      display: flex;
+      gap: 10px;
+}
+
+.h1 {
+      font-size: 30px;
+      line-height: 36px;
+      color: #1A1919;
+}
+
+.tabAndSearch {
+      position: relative;
+      width: 100%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05), 0px 0px 30px rgba(0, 0, 0, 0.1);
+      z-index: 3;
+      padding: 5px 40px 0;
+      height: 80px;
+}
+
+.content {
+      flex-grow: 100;
+      width: 100%;
+      padding: 40px;
+      background-color: #eff2f5;
+      /* viewport - main header - middle header - tab header*/
+      height: calc(100vh - 80px - 80px - 80px);
+      overflow-y: auto;
+}

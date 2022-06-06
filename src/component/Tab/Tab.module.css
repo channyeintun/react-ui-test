@@ -1,0 +1,33 @@
+.tabContainer{
+      width: 100%;
+}
+
+.tabContent{
+      width: 100%;
+}
+
+.tabButtons {
+      display: flex;
+      flex-wrap: nowrap;
+      gap:20px;
+}
+
+.tabButton {
+      font-size: 20px;
+      background: transparent;
+      border: none;
+      outline: none;
+      padding: 10px;
+      cursor: pointer;
+      color:rgba(0, 0, 0);
+      transition: all ease-in-out .2s;
+      border-bottom: 2px solid transparent;
+      font-size: 18px;
+      line-height: 22px;
+      font-weight: 500;
+}
+
+.activeTab {
+      color: #0083E3;
+      border-bottom: 2px solid #0083E3;
+}
